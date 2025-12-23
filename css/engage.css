@@ -20,6 +20,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+
+
+
+
 /*-------- COMMON STYLES
 
 Blue: 138dc2	Magenta: c9187a			Orange: e18a26		Green: 068a51
@@ -60,6 +64,10 @@ Blue: 138dc2	Magenta: c9187a			Orange: e18a26		Green: 068a51
 	border-right-color: #e2e2e2;
 	border-bottom-color: #e2e2e2;
 	border-left-color: #e2e2e2;
+	}
+
+.event-details-small-blue {
+	letter-spacing: 1px;
 }
 
 #questionaire {
@@ -82,9 +90,9 @@ Blue: 138dc2	Magenta: c9187a			Orange: e18a26		Green: 068a51
 }
 
 
-#attendance-confirmation {
+/* #attendance-confirmation {
 
-}
+} */
 
 #main-recipient-contact-form {
 	margin-right: auto;
@@ -159,7 +167,7 @@ Blue: 138dc2	Magenta: c9187a			Orange: e18a26		Green: 068a51
 }
 
 #banner p{
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 24px;
 	font-style: italic;
 	font-weight: bold;
@@ -186,20 +194,19 @@ Blue: 138dc2	Magenta: c9187a			Orange: e18a26		Green: 068a51
 }
 
 .event-details-small-blue, .event-details-small-magenta, .event-details-small-orange, .event-details-small-green {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: bold;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	text-align: left;
 }
 
 #event-details-small {
 	font-size: 13px;
 	line-height: 1.5em;
-	
 }
 
-#event-details-small-table td{
-	font-family: Arial, Helvetica, sans-serif;
+#event-details-small-table td {
+	font-family: 'PT Sans', sans-serif;
 	color: #666666;
 	font-size: 13px;
 }
@@ -224,9 +231,9 @@ Blue: 138dc2	Magenta: c9187a			Orange: e18a26		Green: 068a51
 }
 
 .event-details-big-blue, .event-details-big-magenta, .event-details-big-orange, .event-details-big-green {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: bold;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	text-align: left;
 }
 
@@ -248,34 +255,34 @@ Blue: 138dc2	Magenta: c9187a			Orange: e18a26		Green: 068a51
 }
 
 #event-details-big-table td{
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	color: #666666;
 	font-size: 15px;
 }
 
 .maplink {
-	font-family: Arial, Helvetica, sans-serif;	
+	font-family: 'PT Sans', sans-serif;	
 }
 
 
 /*--------Refer a Friend Form--------*/
 #Refer-a-Friend {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	color: #000;
 }
 
-#Refer-a-Friend table {
-}
+/* #Refer-a-Friend table {
+} */
 
 label {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	padding-right: 10px;
 	line-height: -1em;
 
 }
 
 .textfield {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 15px;
 	color: #666666;
 	border: 1px solid #138dc2;
@@ -289,12 +296,12 @@ label {
 /*--------Landing Page Form--------*/
 
 #main-recipient {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	color: #000;
 }
 
 .textfield-mr {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	color: #666666;
 	border: 1px solid #138dc2;
@@ -309,7 +316,7 @@ label {
 }
 
 .suburb  {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	color: #666666;
 	border: 1px solid #138dc2;
@@ -318,7 +325,7 @@ label {
 }
 
 .state  {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	color: #666666;
 	border: 1px solid #138dc2;
@@ -327,7 +334,7 @@ label {
 }
 
 .postcode  {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	color: #666666;
 	border: 1px solid #138dc2;
@@ -350,10 +357,10 @@ label {
 
 /*--------Attending or Not Attending--------*/
 .Attending-or-Not {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
 	color: #138DC2;
-	font-weight: bold;
+	/* font-weight: 700; */
 }
 
 
@@ -369,7 +376,7 @@ label {
 }
 
 .numbering {
-	font-family: Arial, Helvetica, sans-serif;	
+	font-family: 'PT Sans', sans-serif;	
 }
 
 .tableborder {
@@ -386,7 +393,7 @@ label {
 .tablepadding {
 	padding-left: 10px;
 	padding-right: 10px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 13px;
 }
 
@@ -440,8 +447,8 @@ label {
 }
 
 .clickable-link {
-	font-family: Arial, Helvetica, sans-serif;
-	text-transform: uppercase;
+	font-family: 'PT Sans', sans-serif;
+	/* text-transform: uppercase; */
 	color: #138dc2;
 	font-weight: bold;
 	font-size: 14px;
@@ -472,11 +479,13 @@ h2 {
 h2, h3, h4 {
 	color: #138dc2;
 	font-weight: bold;
+	font-family: "Nunito", sans-serif;
+	letter-spacing: 1px;
 }
 
 
-h2, h3, h4, p {
-	font-family: Arial, Helvetica, sans-serif;	
+p {
+	font-family: 'PT Sans', sans-serif;	
 }
 
 h2, h3, h4 {
@@ -488,7 +497,7 @@ h4 {
 }
 
 h6 {
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: 'Nunito', sans-serif;
 	font-style: italic;
 	color: #B2B2B2;
 	padding-bottom: 10px;
@@ -498,7 +507,7 @@ h6 {
 }
 
 label {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	padding-right: 10px;
 }
@@ -511,22 +520,19 @@ nav {
 
 nav ol {
 	font-size: 14px;
-	font-family: georgia;
+	font-family: PT Sans;
 	font-style: italic;
 	margin: 0;
 	padding: 0;
 	color: gray;
 }
 
-nav ol li {
-
-}
 
 nav ol li a {
 	display: block;
 	text-decoration: underline;
 	font-size: 14px;
-	font-family: georgia;
+	font-family: PT Sans;
 	font-style: italic;
 	padding: 7.5px;
 	color: gray;
@@ -536,9 +542,9 @@ nav ol li a {
 	position: relative;
 	left: -15px;
 	color: gray;
-	font-family: georgia;
+	font-family: PT Sans;
 	font-style: italic;
-	font-size: 15px;
+	font-size: 16px;
 }
 
 .engage-active {
@@ -546,5 +552,38 @@ nav ol li a {
 }
 
 .engage-smaller {
-	font-size: 12px;
+	font-size: 14px;
+}
+
+/*-- font updates --*/
+.sentence {
+	font-family: 'PT Sans', sans-serif !important;	
+	font-size: 16px;	
+}
+
+.engage-smaller {
+	font-family: 'PT Sans', sans-serif !important;
+	font-size: 16px;	
+}
+
+nav ol li a {
+	font-family: 'PT Sans', sans-serif !important;
+	font-size: 16px;	
+}
+
+input {
+	border-radius: 4px;
+}
+
+select {
+	padding: 8px 8px 8px 4px;
+	border-radius: 4px;
+}
+
+.c-btn {
+	padding: 12px 16px 12px 16px;
+	border-radius: 8px;
+	background-color: #198754;
+	border: 0;
+	color: white;
 }
